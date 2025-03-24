@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from "react";
-import { useRouter } from "next/router";
-import Link from "next/link";
-import Image from "next/image";
+import React, { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
+import Link from 'next/link';
+import Image from 'next/image';
+import TechhubLogo from '../Services/logo';
 
 const NavbarTwo = () => {
   // Add active class
-  const [currentPath, setCurrentPath] = useState("");
+  const [currentPath, setCurrentPath] = useState('');
   const router = useRouter();
   // console.log(router.asPath)
 
@@ -18,22 +19,22 @@ const NavbarTwo = () => {
     setMenu(!menu);
   };
   React.useEffect(() => {
-    let elementId = document.getElementById("navbar");
-    document.addEventListener("scroll", () => {
+    let elementId = document.getElementById('navbar');
+    document.addEventListener('scroll', () => {
       if (window.scrollY > 170) {
-        elementId.classList.add("is-sticky");
+        elementId.classList.add('is-sticky');
       } else {
-        elementId.classList.remove("is-sticky");
+        elementId.classList.remove('is-sticky');
       }
     });
   });
 
   const classOne = menu
-    ? "collapse navbar-collapse"
-    : "collapse navbar-collapse show";
+    ? 'collapse navbar-collapse'
+    : 'collapse navbar-collapse show';
   const classTwo = menu
-    ? "navbar-toggler navbar-toggler-right collapsed"
-    : "navbar-toggler navbar-toggler-right";
+    ? 'navbar-toggler navbar-toggler-right collapsed'
+    : 'navbar-toggler navbar-toggler-right';
 
   return (
     <>
@@ -43,12 +44,13 @@ const NavbarTwo = () => {
             <div className="container">
               <nav className="navbar navbar-expand-md">
                 <Link href="/" className="navbar-brand">
-                  <Image
+                  {/* <Image
                     src="/images/black-logo.png"
                     alt="logo"
                     width={150}
                     height={42}
-                  />
+                  /> */}
+                  <TechhubLogo />
                 </Link>
 
                 <button
@@ -82,7 +84,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/"
                             className={`nav-link ${
-                              currentPath == "/" && "active"
+                              currentPath == '/' && 'active'
                             }`}
                           >
                             Home Demo - 1
@@ -93,7 +95,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/index-2/"
                             className={`nav-link ${
-                              currentPath == "/index-2/" && "active"
+                              currentPath == '/index-2/' && 'active'
                             }`}
                           >
                             Home Demo - 2
@@ -104,7 +106,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/index-3/"
                             className={`nav-link ${
-                              currentPath == "/index-3/" && "active"
+                              currentPath == '/index-3/' && 'active'
                             }`}
                           >
                             Home Demo - 3
@@ -115,7 +117,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/index-4/"
                             className={`nav-link ${
-                              currentPath == "/index-4/" && "active"
+                              currentPath == '/index-4/' && 'active'
                             }`}
                           >
                             Home Demo - 4
@@ -126,7 +128,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/index-5/"
                             className={`nav-link ${
-                              currentPath == "/index-5/" && "active"
+                              currentPath == '/index-5/' && 'active'
                             }`}
                           >
                             Home Demo - 5
@@ -149,7 +151,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/about-us/"
                             className={`nav-link ${
-                              currentPath == "/about-us/" && "active"
+                              currentPath == '/about-us/' && 'active'
                             }`}
                           >
                             About Us
@@ -160,7 +162,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/team/"
                             className={`nav-link ${
-                              currentPath == "/team/" && "active"
+                              currentPath == '/team/' && 'active'
                             }`}
                           >
                             Team
@@ -171,7 +173,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/testimonials/"
                             className={`nav-link ${
-                              currentPath == "/testimonials/" && "active"
+                              currentPath == '/testimonials/' && 'active'
                             }`}
                           >
                             Testimonials
@@ -182,7 +184,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/pricing/"
                             className={`nav-link ${
-                              currentPath == "/pricing/" && "active"
+                              currentPath == '/pricing/' && 'active'
                             }`}
                           >
                             Pricing
@@ -203,7 +205,7 @@ const NavbarTwo = () => {
                               <Link
                                 href="/my-account/"
                                 className={`nav-link ${
-                                  currentPath == "/my-account/" && "active"
+                                  currentPath == '/my-account/' && 'active'
                                 }`}
                               >
                                 My Account
@@ -214,7 +216,7 @@ const NavbarTwo = () => {
                               <Link
                                 href="/login/"
                                 className={`nav-link ${
-                                  currentPath == "/login/" && "active"
+                                  currentPath == '/login/' && 'active'
                                 }`}
                               >
                                 Log In
@@ -225,7 +227,7 @@ const NavbarTwo = () => {
                               <Link
                                 href="/register/"
                                 className={`nav-link ${
-                                  currentPath == "/register/" && "active"
+                                  currentPath == '/register/' && 'active'
                                 }`}
                               >
                                 Register
@@ -236,8 +238,8 @@ const NavbarTwo = () => {
                               <Link
                                 href="/recover-password/"
                                 className={`nav-link ${
-                                  currentPath == "/recover-password/" &&
-                                  "active"
+                                  currentPath == '/recover-password/' &&
+                                  'active'
                                 }`}
                               >
                                 Recover Password
@@ -250,7 +252,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/faq/"
                             className={`nav-link ${
-                              currentPath == "/faq/" && "active"
+                              currentPath == '/faq/' && 'active'
                             }`}
                           >
                             FAQ
@@ -261,7 +263,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/privacy-policy/"
                             className={`nav-link ${
-                              currentPath == "/privacy-policy/" && "active"
+                              currentPath == '/privacy-policy/' && 'active'
                             }`}
                           >
                             Privacy Policy
@@ -272,7 +274,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/terms-conditions/"
                             className={`nav-link ${
-                              currentPath == "/terms-conditions/" && "active"
+                              currentPath == '/terms-conditions/' && 'active'
                             }`}
                           >
                             Terms & Conditions
@@ -283,7 +285,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/coming-soon/"
                             className={`nav-link ${
-                              currentPath == "/coming-soon/" && "active"
+                              currentPath == '/coming-soon/' && 'active'
                             }`}
                           >
                             Coming Soon
@@ -294,7 +296,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/404/"
                             className={`nav-link ${
-                              currentPath == "/404/" && "active"
+                              currentPath == '/404/' && 'active'
                             }`}
                           >
                             404 Error Page
@@ -317,7 +319,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/services/"
                             className={`nav-link ${
-                              currentPath == "/services/" && "active"
+                              currentPath == '/services/' && 'active'
                             }`}
                           >
                             Services Style One
@@ -328,7 +330,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/services/2/"
                             className={`nav-link ${
-                              currentPath == "/services/2/" && "active"
+                              currentPath == '/services/2/' && 'active'
                             }`}
                           >
                             Services Style Two
@@ -339,8 +341,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/services/3/"
                             className={`nav-link ${
-                              currentPath == "/services/3/" &&
-                              "active"
+                              currentPath == '/services/3/' && 'active'
                             }`}
                           >
                             Services Style Three
@@ -351,7 +352,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/services/details/"
                             className={`nav-link ${
-                              currentPath == "/services/details/" && "active"
+                              currentPath == '/services/details/' && 'active'
                             }`}
                           >
                             Service Details
@@ -374,7 +375,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/solutions/"
                             className={`nav-link ${
-                              currentPath == "/solutions/" && "active"
+                              currentPath == '/solutions/' && 'active'
                             }`}
                           >
                             Solutions
@@ -385,7 +386,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/solutions/details/"
                             className={`nav-link ${
-                              currentPath == "/solutions/details/" && "active"
+                              currentPath == '/solutions/details/' && 'active'
                             }`}
                           >
                             Solution Details
@@ -408,7 +409,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/blog/"
                             className={`nav-link ${
-                              currentPath == "/blog/" && "active"
+                              currentPath == '/blog/' && 'active'
                             }`}
                           >
                             Blog Column One
@@ -419,7 +420,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/blog/2/"
                             className={`nav-link ${
-                              currentPath == "/blog/2/" && "active"
+                              currentPath == '/blog/2/' && 'active'
                             }`}
                           >
                             Blog Column Two
@@ -430,7 +431,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/blog/3/"
                             className={`nav-link ${
-                              currentPath == "/blog/3/" && "active"
+                              currentPath == '/blog/3/' && 'active'
                             }`}
                           >
                             Blog Column Three
@@ -441,7 +442,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/blog/4/"
                             className={`nav-link ${
-                              currentPath == "/blog/4/" && "active"
+                              currentPath == '/blog/4/' && 'active'
                             }`}
                           >
                             Blog Left Sidebar
@@ -452,7 +453,7 @@ const NavbarTwo = () => {
                           <Link
                             href="/blog/details/"
                             className={`nav-link ${
-                              currentPath == "/blog/details/" && "active"
+                              currentPath == '/blog/details/' && 'active'
                             }`}
                           >
                             Blog Details
@@ -465,7 +466,7 @@ const NavbarTwo = () => {
                       <Link
                         href="/contact/"
                         className={`nav-link ${
-                          currentPath == "/contact/" && "active"
+                          currentPath == '/contact/' && 'active'
                         }`}
                       >
                         Contact
