@@ -71,70 +71,9 @@ const NavbarTwo = () => {
                 <div className={classOne} id="navbarSupportedContent">
                   <ul className="navbar-nav m-auto">
                     <li className="nav-item">
-                      <Link
-                        href="#"
-                        onClick={(e) => e.preventDefault()}
-                        className="nav-link"
-                      >
-                        Home <i className="bx bx-chevron-down"></i>
+                      <Link href="/" className="nav-link">
+                        Գլխավոր
                       </Link>
-
-                      <ul className="dropdown-menu">
-                        <li className="nav-item">
-                          <Link
-                            href="/"
-                            className={`nav-link ${
-                              currentPath == '/' && 'active'
-                            }`}
-                          >
-                            Home Demo - 1
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link
-                            href="/index-2/"
-                            className={`nav-link ${
-                              currentPath == '/index-2/' && 'active'
-                            }`}
-                          >
-                            Home Demo - 2
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link
-                            href="/index-3/"
-                            className={`nav-link ${
-                              currentPath == '/index-3/' && 'active'
-                            }`}
-                          >
-                            Home Demo - 3
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link
-                            href="/index-4/"
-                            className={`nav-link ${
-                              currentPath == '/index-4/' && 'active'
-                            }`}
-                          >
-                            Home Demo - 4
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link
-                            href="/index-5/"
-                            className={`nav-link ${
-                              currentPath == '/index-5/' && 'active'
-                            }`}
-                          >
-                            Home Demo - 5
-                          </Link>
-                        </li>
-                      </ul>
                     </li>
 
                     <li className="nav-item">
