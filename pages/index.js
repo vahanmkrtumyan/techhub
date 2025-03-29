@@ -7,12 +7,8 @@ import OurChallenges from '../components/Common/OurChallenges';
 import Services from '../components/HomeDemoOne/Services';
 import SolutionArea from '../components/HomeDemoOne/SolutionArea';
 import GetInTouchForm from '../components/Common/GetInTouchForm';
-import Protects from '../components/HomeDemoOne/Protects';
-import Testimonials from '../components/Common/Testimonials';
-import Partners from '../components/Common/Partners';
-import LatestNews from '../components/Common/LatestNews';
 import Footer from '../components/Layouts/Footer';
-import TechhubLogo from '../components/Services/logo';
+import ServicesCard from '../components/Services/ServicesCard';
 
 const Index = () => {
   return (
@@ -21,27 +17,15 @@ const Index = () => {
 
       <MainBanner />
 
-      <Features />
-
       <div className="pb-100">
         <AboutUsContent />
       </div>
 
-      <OurChallenges />
-
-      <Services />
+      <ServicesCard />
 
       <SolutionArea />
 
       <GetInTouchForm />
-
-      <Protects />
-
-      <Testimonials />
-
-      <Partners />
-
-      <LatestNews />
 
       <Footer />
     </>

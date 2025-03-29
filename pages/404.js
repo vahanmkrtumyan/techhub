@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 const Custom404 = () => {
   return (
@@ -9,14 +9,13 @@ const Custom404 = () => {
           <div className="d-table-cell">
             <div className="error-content">
               <h1>
-                <span className="a">4</span> <span className="red">0</span>{" "}
+                <span className="a">4</span> <span className="red">0</span>{' '}
                 <span className="b">4</span>
               </h1>
-              <h3>Oops! Page Not Found</h3>
-              <p>The page you were looking for could not be found.</p>
+              <h3 className="mb-4">Էջը չի գտնվել</h3>
 
               <Link href="/" className="default-btn two">
-                <span>Return To Home Page</span>
+                <span>Վերադառնալ գլխավոր էջ</span>
               </Link>
             </div>
           </div>

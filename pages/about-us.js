@@ -1,17 +1,17 @@
-import React from "react";
-import NavbarFive from "../components/Layouts/NavbarFive";
-import PageBanner from "../components/Common/PageBanner";
-import AboutUsContent from "../components/AboutUs/AboutUsContent";
-import OurChallenges from "../components/Common/OurChallenges";
-import Protects from "../components/AboutUs/Protects";
-import Testimonials from "../components/Common/Testimonials";
-import Partners from "../components/Common/Partners";
-import Footer from "../components/Layouts/Footer";
+import React from 'react';
+import PageBanner from '../components/Common/PageBanner';
+import AboutUsContent from '../components/AboutUs/AboutUsContent';
+import OurChallenges from '../components/Common/OurChallenges';
+import Protects from '../components/AboutUs/Protects';
+import Testimonials from '../components/Common/Testimonials';
+import Partners from '../components/Common/Partners';
+import Footer from '../components/Layouts/Footer';
+import NavbarTwo from '../components/Layouts/NavbarTwo';
 
 const AboutUs = () => {
   return (
     <>
-      <NavbarFive />
+      <NavbarTwo />
 
       <PageBanner
         pageTitle="About Us"

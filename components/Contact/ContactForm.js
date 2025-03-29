@@ -1,28 +1,28 @@
-import React, { useState } from "react";
-import axios from "axios";
-import Swal from "sweetalert2";
-import withReactContent from "sweetalert2-react-content";
+import React, { useState } from 'react';
+import axios from 'axios';
+import Swal from 'sweetalert2';
+import withReactContent from 'sweetalert2-react-content';
 const MySwal = withReactContent(Swal);
-import baseUrl from "../../utils/baseUrl";
+import baseUrl from '../../utils/baseUrl';
 
 const alertContent = () => {
   MySwal.fire({
-    title: "Congratulations!",
-    text: "Your message was successfully send and will back to you soon",
-    icon: "success",
+    title: 'Congratulations!',
+    text: 'Your message was successfully send and will back to you soon',
+    icon: 'success',
     timer: 2000,
     timerProgressBar: true,
-    showConfirmButton: false,
+    showConfirmButton: false
   });
 };
 
 // Form initial state
 const INITIAL_STATE = {
-  name: "",
-  email: "",
-  number: "",
-  subject: "",
-  text: "",
+  name: '',
+  email: '',
+  number: '',
+  subject: '',
+  text: ''
 };
 
 const ContactForm = () => {
@@ -146,7 +146,7 @@ const ContactForm = () => {
 
             <div className="col-lg-4">
               <div className="contact-info">
-                <h3>Our contact details</h3>
+                <h3>Մեր կոնտակտային տվյալները</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod.
@@ -155,49 +155,21 @@ const ContactForm = () => {
                 <ul className="address">
                   <li className="location">
                     <i className="bx bxs-location-plus"></i>
-                    <span>Address</span>
+                    <span>Հասցե</span>
                     6890 Blvd, The Bronx, NY 1058 New York, USA
                   </li>
                   <li>
                     <i className="bx bxs-phone-call"></i>
-                    <span>Phone</span>
+                    <span>Հեռախոս</span>
                     <a href="tel:+1-(514)-312-5678">+1 (514) 312-5678</a>
                     <a href="tel:+1-(514)-312-6677">+1 (514) 312-6677</a>
                   </li>
                   <li>
                     <i className="bx bxs-envelope"></i>
-                    <span>Email</span>
-                    <a href="mailto:hello@nezox.com">hello@nezox.com</a>
-                    <a href="#">skype: example</a>
+                    <span>Էլ հասցե</span>
+                    <a href="mailto:info@techhub.am">info@techub.am</a>
                   </li>
                 </ul>
-
-                <div className="sidebar-follow-us">
-                  <h3>Follow us:</h3>
-
-                  <ul className="social-wrap">
-                    <li>
-                      <a href="https://twitter.com/" target="_blank">
-                        <i className="bx bxl-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.instagram.com/" target="_blank">
-                        <i className="bx bxl-instagram"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.facebook.com/" target="_blank">
-                        <i className="bx bxl-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.youtube.com/" target="_blank">
-                        <i className="bx bxl-youtube"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>

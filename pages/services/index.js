@@ -1,14 +1,14 @@
-import React from "react";
-import NavbarFive from "../../components/Layouts/NavbarFive";
-import PageBanner from "../../components/Common/PageBanner";
-import ServicesCard from "../../components/Services/ServicesCard";
-import Footer from "../../components/Layouts/Footer";
-import Image from "next/image";
+import React from 'react';
+import PageBanner from '../../components/Common/PageBanner';
+import ServicesCard from '../../components/Services/ServicesCard';
+import Footer from '../../components/Layouts/Footer';
+import Image from 'next/image';
+import NavbarTwo from '../../components/Layouts/NavbarTwo';
 
 const Services = () => {
   return (
     <>
-      <NavbarFive />
+      <NavbarTwo />
 
       <PageBanner
         pageTitle="Services Style One"

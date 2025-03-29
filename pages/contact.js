@@ -1,14 +1,14 @@
-import React from "react";
-import NavbarFive from "../components/Layouts/NavbarFive";
-import PageBanner from "../components/Common/PageBanner";
-import Footer from "../components/Layouts/Footer";
-import ContactForm from "./../components/Contact/ContactForm";
-import GoogleMap from "../components/Contact/GoogleMap";
+import React from 'react';
+import PageBanner from '../components/Common/PageBanner';
+import Footer from '../components/Layouts/Footer';
+import ContactForm from './../components/Contact/ContactForm';
+import GoogleMap from '../components/Contact/GoogleMap';
+import NavbarTwo from '../components/Layouts/NavbarTwo';
 
 const Contact = () => {
   return (
     <>
-      <NavbarFive />
+      <NavbarTwo />
 
       <PageBanner
         pageTitle="Contact Us"
