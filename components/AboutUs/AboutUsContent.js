@@ -1,6 +1,6 @@
-import React from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Image from "next/image";
+import React from 'react';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import Image from 'next/image';
 
 const AboutUsContent = () => {
   return (
@@ -22,107 +22,22 @@ const AboutUsContent = () => {
             <div className="col-lg-6">
               <div className="about-content">
                 <div className="about-title">
-                  <span>About Us</span>
-                  <h2>
-                    Without Stopping For a Moment We Give You Best Technology
-                    Experience Discussing From Our Expertise to Stop Threats
-                    Being Theft or Damaged.
-                  </h2>
+                  <span>Մեր մասին</span>
                 </div>
 
-                <Tabs>
-                  <TabList>
-                    <Tab>Our Experience</Tab>
-                    <Tab>Why Us?</Tab>
-                    <Tab>Our Approach</Tab>
-                  </TabList>
-
-                  <TabPanel>
-                    <p>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Placeat atque quibusdam fuga natus non necessitatibus
-                      eveniet maiores nostrum esse ut voluptates sint dolores,
-                      voluptatum consequatur ad est enim perferendis
-                      reprehenderit.
-                    </p>
-
-                    <ul>
-                      <li>
-                        <i className="bx bx-check-circle"></i>
-                        Trusted Partner
-                      </li>
-                      <li>
-                        <i className="bx bx-check-circle"></i>
-                        Product Security
-                      </li>
-                      <li>
-                        <i className="bx bx-check-circle"></i>
-                        System Security
-                      </li>
-                      <li>
-                        <i className="bx bx-check-circle"></i>
-                        Operational Security
-                      </li>
-                    </ul>
-                  </TabPanel>
-
-                  <TabPanel>
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomised words which
-                      don't look even slightly believable. If you are going to
-                      use a passage
-                    </p>
-
-                    <ul>
-                      <li>
-                        <i className="bx bx-check-circle"></i>
-                        Product Security
-                      </li>
-                      <li>
-                        <i className="bx bx-check-circle"></i>
-                        Operational Security
-                      </li>
-                      <li>
-                        <i className="bx bx-check-circle"></i>
-                        Trusted Partner
-                      </li>
-                      <li>
-                        <i className="bx bx-check-circle"></i>
-                        System Security
-                      </li>
-                    </ul>
-                  </TabPanel>
-
-                  <TabPanel>
-                    <p>
-                      At vero eos et accusamus et iusto odio dignissimos ducimus
-                      qui blanditiis praesentium voluptatum deleniti atque
-                      corrupti quos dolores et quas molestias excepturi sint
-                      occaecati cupiditate non provident.
-                    </p>
-
-                    <ul>
-                      <li>
-                        <i className="bx bx-check-circle"></i>
-                        Trusted Partner
-                      </li>
-                      <li>
-                        <i className="bx bx-check-circle"></i>
-                        Product Security
-                      </li>
-                      <li>
-                        <i className="bx bx-check-circle"></i>
-                        System Security
-                      </li>
-                      <li>
-                        <i className="bx bx-check-circle"></i>
-                        Operational Security
-                      </li>
-                    </ul>
-                  </TabPanel>
-                </Tabs>
+                <p>
+                  Թեքհաբ ընկերությունը մասնագիտացած է նորարարական տեխնոլոգիական
+                  լուծումներ տրամադրելու ոլորտում՝ ապահովելով բիզնեսների թվային
+                  զարգացումը։ Մեր թիմը բաղկացած է փորձառու մասնագետներից, ովքեր
+                  առաջարկում են բարձրորակ ծրագրային ապահովում, վեբ և մոբայլ
+                  հավելվածների մշակում, ինչպես նաև ՏՏ խորհրդատվություն։ Մենք
+                  ձգտում ենք ստեղծել արդյունավետ և հուսալի լուծումներ, որոնք
+                  կօգնեն մեր հաճախորդներին հասնել իրենց բիզնես նպատակներին։
+                  <br />
+                  Հետևելով նորագույն տեխնոլոգիական միտումներին՝ մենք մշակում ենք
+                  անհատականացված և ճկուն լուծումներ, որոնք համապատասխանում են
+                  ժամանակակից պահանջներին։
+                </p>
               </div>
             </div>
           </div>

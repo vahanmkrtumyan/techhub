@@ -1,6 +1,6 @@
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const SolutionArea = () => {
   return (
@@ -11,11 +11,8 @@ const SolutionArea = () => {
             <div className="col-lg-6">
               <div className="solution-content">
                 <div className="solution-title">
-                  <span>All-in Solution</span>
-                  <h2>
-                    Our Experts Are Providing and Planning 24/7 Technical
-                    Support Services With Product and Security Cnsultation.
-                  </h2>
+                  <span>Ինչ ենք մենք առաջարկում</span>
+                  <h2>Մեր առավելությունները</h2>
                 </div>
 
                 <div className="row justify-content-center">
@@ -24,13 +21,12 @@ const SolutionArea = () => {
                       <div className="overly-two">
                         <h3>
                           <Link href="/solutions/details">
-                            Product Consultation
+                            24/7 խորհրդատվություն և սպասարկում
                           </Link>
                         </h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consetetur sadipscing
-                          elitr, sed diam nonumy eirmod tempor invidunt ut
-                          labore et dolore magna aliquyam erat.
+                          Մեր մասնագետները միշտ պատրաստ են աջակցել ձեզ ցանկացած
+                          պահին՝ առանց սահմանափակումների։
                         </p>
                         <span>01</span>
                       </div>
@@ -42,13 +38,12 @@ const SolutionArea = () => {
                       <div className="overly-two">
                         <h3>
                           <Link href="/solutions/details">
-                            Security Consultation
+                            Արագ և հուսալի ծառայություններ
                           </Link>
                         </h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consetetur sadipscing
-                          elitr, sed diam nonumy eirmod tempor invidunt ut
-                          labore et dolore magna aliquyam erat.
+                          Մենք երաշխավորում ենք բարձրորակ սպասարկում և օպտիմալ
+                          լուծումներ ձեր բիզնեսի համար։
                         </p>
                         <span>02</span>
                       </div>
@@ -60,13 +55,12 @@ const SolutionArea = () => {
                       <div className="overly-two">
                         <h3>
                           <Link href="/solutions/details">
-                            24/7 Technical Support
+                            Մրցակցային գներ և ճկուն պայմաններ
                           </Link>
                         </h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consetetur sadipscing
-                          elitr, sed diam nonumy eirmod tempor invidunt ut
-                          labore et dolore magna aliquyam erat.
+                          Մենք առաջարկում ենք մատչելի և հարմարեցված լուծումներ,
+                          որոնք համապատասխանում են ձեր պահանջներին։
                         </p>
                         <span>03</span>
                       </div>
