@@ -1,6 +1,6 @@
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const ServicesCard = () => {
   return (
@@ -8,241 +8,81 @@ const ServicesCard = () => {
       <div className="services-area pb-70">
         <div className="container">
           <div className="section-title">
-            <span>Cybersecurity Services</span>
-            <h2>
-              You Can Protect Your Organization’s Cybersecurity by Services Us
-            </h2>
+            <h2>Ծառայություններ</h2>
           </div>
 
           <div className="row">
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-4 col-sm-6">
               <div className="single-services">
                 <div className="services-img">
                   <Link href="/services/details">
                     <Image
-                      src="/images/services/services-1.jpg"
+                      src="/images/services/services-01.jpg"
                       alt="Image"
-                      width={550}
+                      width={400}
                       height={650}
+                      style={{ objectFit: 'cover', height: '650px' }}
                     />
                   </Link>
                 </div>
 
                 <div className="services-content">
-                  <h3>
-                    <Link href="/services/details">Website Scanning</Link>
-                  </h3>
+                  <h3 className="rrr">Վեբ և բջջային հավելվածների մշակում</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed
-                    do.
+                    Մենք ստեղծում ենք հարմարավետ, բարձրակարգ վեբ և բջջային
+                    հավելվածներ՝ ապահովելով բարձր կատարողականություն և
+                    օգտագործելիություն:
                   </p>
-
-                  <Link href="/services/details" className="read-more">
-                    Read more <i className="flaticon-right-arrow"></i>
-                  </Link>
                 </div>
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-4 col-sm-6">
               <div className="single-services">
                 <div className="services-img">
                   <Link href="/services/details">
                     <Image
-                      src="/images/services/services-2.jpg"
+                      src="/images/services/custom3.webp"
                       alt="Image"
-                      width={550}
+                      width={400}
                       height={650}
+                      style={{ objectFit: 'cover', height: '650px' }}
                     />
                   </Link>
                 </div>
 
                 <div className="services-content">
-                  <h3>
-                    <Link href="/services/details">Malware Removal</Link>
-                  </h3>
+                  <h3 className="rrr">Արհեստական բանականության լուծումներ</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed
-                    do.
+                    AI տեխնոլոգիաների միջոցով մենք ստեղծում ենք խելացի
+                    ավտոմատացման լուծումներ, որոնք կօգնեն բիզնեսներին ավելի
+                    արդյունավետ աշխատել:
                   </p>
-
-                  <Link href="/services/details" className="read-more">
-                    Read more <i className="flaticon-right-arrow"></i>
-                  </Link>
                 </div>
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-4 col-sm-6">
               <div className="single-services">
                 <div className="services-img">
                   <Link href="/services/details">
                     <Image
                       src="/images/services/services-3.jpg"
                       alt="Image"
-                      width={550}
+                      width={400}
                       height={650}
+                      style={{ objectFit: 'cover', height: '650px' }}
                     />
                   </Link>
                 </div>
 
                 <div className="services-content">
-                  <h3>
-                    <Link href="/services/details">Cloud Security</Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed
-                    do.
+                  <h3 className="rrr">Տվյալագիտություն և վերլուծություն</h3>
+                  <p className="pb-30">
+                    Մենք մշակվում ենք տվյալների վերլուծության և բիզնես
+                    հետախուզության լուծումներ, որոնք կօգնեն ճիշտ որոշումներ
+                    կայացնել:
                   </p>
-
-                  <Link href="/services/details" className="read-more">
-                    Read more <i className="flaticon-right-arrow"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-sm-6">
-              <div className="single-services">
-                <div className="services-img">
-                  <Link href="/services/details">
-                    <Image
-                      src="/images/services/services-4.jpg"
-                      alt="Image"
-                      width={550}
-                      height={650}
-                    />
-                  </Link>
-                </div>
-
-                <div className="services-content">
-                  <h3>
-                    <Link href="/services/details">Data Protection</Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed
-                    do.
-                  </p>
-
-                  <Link href="/services/details" className="read-more">
-                    Read more <i className="flaticon-right-arrow"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-sm-6">
-              <div className="single-services">
-                <div className="services-img">
-                  <Link href="/services/details">
-                    <Image
-                      src="/images/services/services-5.jpg"
-                      alt="Image"
-                      width={550}
-                      height={650}
-                    />
-                  </Link>
-                </div>
-
-                <div className="services-content">
-                  <h3>
-                    <Link href="/services/details">Application Security</Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed
-                    do.
-                  </p>
-
-                  <Link href="/services/details" className="read-more">
-                    Read more <i className="flaticon-right-arrow"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-sm-6">
-              <div className="single-services">
-                <div className="services-img">
-                  <Link href="/services/details">
-                    <Image
-                      src="/images/services/services-6.jpg"
-                      alt="Image"
-                      width={550}
-                      height={650}
-                    />
-                  </Link>
-                </div>
-
-                <div className="services-content">
-                  <h3>
-                    <Link href="/services/details">Threat Hunter</Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed
-                    do.
-                  </p>
-
-                  <Link href="/services/details" className="read-more">
-                    Read more <i className="flaticon-right-arrow"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-sm-6">
-              <div className="single-services">
-                <div className="services-img">
-                  <Link href="/services/details">
-                    <Image
-                      src="/images/services/services-7.jpg"
-                      alt="Image"
-                      width={550}
-                      height={650}
-                    />
-                  </Link>
-                </div>
-
-                <div className="services-content">
-                  <h3>
-                    <Link href="/services/details">Secure Managed IT</Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed
-                    do.
-                  </p>
-
-                  <Link href="/services/details" className="read-more">
-                    Read more <i className="flaticon-right-arrow"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-sm-6">
-              <div className="single-services">
-                <div className="services-img">
-                  <Link href="/services/details">
-                    <Image
-                      src="/images/services/services-8.jpg"
-                      alt="Image"
-                      width={550}
-                      height={650}
-                    />
-                  </Link>
-                </div>
-
-                <div className="services-content">
-                  <h3>
-                    <Link href="/services/details">Networking Security</Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed
-                    do.
-                  </p>
-
-                  <Link href="/services/details" className="read-more">
-                    Read more <i className="flaticon-right-arrow"></i>
-                  </Link>
                 </div>
               </div>
             </div>
