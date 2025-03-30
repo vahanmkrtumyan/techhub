@@ -44,6 +44,12 @@ This files table contents are outlined below>>>>>
 /*
 Default Style
 ============================*/
+
+html {
+  scroll-padding-top: 100px;
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 16px;
   font-family: 'Lato', sans-serif;

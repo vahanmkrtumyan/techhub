@@ -97,7 +97,7 @@ const NavbarTwo = () => {
 
                     <li className="nav-item">
                       <Link
-                        href="/contact/"
+                        href="#contact"
                         className={`nav-link ${
                           currentPath == '/contact/' && 'active'
                         }`}
