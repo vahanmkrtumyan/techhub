@@ -73,6 +73,15 @@ body.body-color-three {
   max-width: 1260px;
 }
 
+.contact-section {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-item {
+  flex: 1;
+}
+
 a {
   display: inline-block;
   transition: all ease 0.5s;

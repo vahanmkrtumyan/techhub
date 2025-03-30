@@ -75,7 +75,7 @@ const NavbarTwo = () => {
 
                     <li className="nav-item">
                       <Link
-                        href="/about-us/"
+                        href="#about"
                         className={`nav-link ${
                           currentPath == '/about-us/' && 'active'
                         }`}
@@ -86,7 +86,7 @@ const NavbarTwo = () => {
 
                     <li className="nav-item">
                       <Link
-                        href="/services/"
+                        href="#services"
                         className={`nav-link ${
                           currentPath == '/services/' && 'active'
                         }`}

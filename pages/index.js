@@ -9,6 +9,7 @@ import SolutionArea from '../components/HomeDemoOne/SolutionArea';
 import GetInTouchForm from '../components/Common/GetInTouchForm';
 import Footer from '../components/Layouts/Footer';
 import ServicesCard from '../components/Services/ServicesCard';
+import ContactSection from '../components/Common/ContactSection';
 
 const Index = () => {
   return (
@@ -24,8 +25,9 @@ const Index = () => {
       <ServicesCard />
 
       <SolutionArea />
+      <ContactSection />
 
-      <GetInTouchForm />
+      {/* <GetInTouchForm /> */}
 
       <Footer />
     </>

@@ -1,11 +1,9 @@
-import React from 'react';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import Image from 'next/image';
 
 const AboutUsContent = () => {
   return (
     <>
-      <div className="about-us-area">
+      <div className="about-us-area" id="about">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
