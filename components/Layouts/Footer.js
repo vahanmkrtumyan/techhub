@@ -2,7 +2,6 @@ import Link from 'next/link';
 import TechhubLogoWhite from '../Services/LogoWhite';
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
   return (
     <>
       <footer className="footer-area pt-100 pb-70 jarallax">
