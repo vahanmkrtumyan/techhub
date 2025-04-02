@@ -12,13 +12,12 @@ const Contacts = () => {
           <li className="location">
             <i className="bx bxs-location-plus"></i>
             <span>Հասցե</span>
-            6890 Blvd, The Bronx, NY 1058 New York, USA
+            Մարգարյան 2/4
           </li>
           <li>
             <i className="bx bxs-phone-call"></i>
             <span>Հեռախոս</span>
-            <a href="tel:+1-(514)-312-5678">+1 (514) 312-5678</a>
-            <a href="tel:+1-(514)-312-6677">+1 (514) 312-6677</a>
+            <a href="tel:+37444888373">+374 44 888373</a>
           </li>
           <li>
             <i className="bx bxs-envelope"></i>
