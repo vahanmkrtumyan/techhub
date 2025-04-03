@@ -18,7 +18,7 @@ const MainBanner = () => {
                 </p>
 
                 <div className="banner-btn">
-                  <Link href="/contact" className="default-btn">
+                  <Link href="#contact" className="default-btn">
                     <span>Կապ</span>
                   </Link>
                 </div>
