@@ -22,7 +22,7 @@ const Contacts = () => {
           <li>
             <i className="bx bxs-envelope"></i>
             <span>Էլ հասցե</span>
-            <a href="mailto:info@techhub.am">info@techub.am</a>
+            <a href="mailto:info@techhub.am">info@techhub.am</a>
           </li>
         </ul>
       </div>
