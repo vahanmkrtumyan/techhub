@@ -3,10 +3,6 @@ const Contacts = () => {
     <div className="main-contact-area pb-100">
       <div className="contact-info">
         <h3>Մեր կոնտակտային տվյալները</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod.
-        </p>
 
         <ul className="address">
           <li className="location">
