@@ -1,5 +1,3 @@
-import React from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
 
 const ServicesCard = () => {
@@ -14,15 +12,13 @@ const ServicesCard = () => {
           <div className="col-lg-4 col-sm-6">
             <div className="single-services">
               <div className="services-img">
-                <Link href="/services/details">
-                  <Image
-                    src="/images/services/services-01.jpg"
-                    alt="Image"
-                    width={400}
-                    height={650}
-                    style={{ objectFit: 'cover', height: '650px' }}
-                  />
-                </Link>
+                <Image
+                  src="/images/services/services-01.jpg"
+                  alt="Image"
+                  width={400}
+                  height={650}
+                  style={{ objectFit: 'cover', height: '650px' }}
+                />
               </div>
 
               <div className="services-content">
@@ -39,15 +35,13 @@ const ServicesCard = () => {
           <div className="col-lg-4 col-sm-6">
             <div className="single-services">
               <div className="services-img">
-                <Link href="/services/details">
-                  <Image
-                    src="/images/services/custom3.webp"
-                    alt="Image"
-                    width={400}
-                    height={650}
-                    style={{ objectFit: 'cover', height: '650px' }}
-                  />
-                </Link>
+                <Image
+                  src="/images/services/custom3.webp"
+                  alt="Image"
+                  width={400}
+                  height={650}
+                  style={{ objectFit: 'cover', height: '650px' }}
+                />
               </div>
 
               <div className="services-content">
@@ -64,15 +58,13 @@ const ServicesCard = () => {
           <div className="col-lg-4 col-sm-6">
             <div className="single-services">
               <div className="services-img">
-                <Link href="/services/details">
-                  <Image
-                    src="/images/services/services-3.jpg"
-                    alt="Image"
-                    width={400}
-                    height={650}
-                    style={{ objectFit: 'cover', height: '650px' }}
-                  />
-                </Link>
+                <Image
+                  src="/images/services/services-3.jpg"
+                  alt="Image"
+                  width={400}
+                  height={650}
+                  style={{ objectFit: 'cover', height: '650px' }}
+                />
               </div>
 
               <div className="services-content">
